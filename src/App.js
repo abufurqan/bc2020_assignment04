@@ -13,7 +13,7 @@ function App() {
       <br/>
       <button onClick={()=> setCount(count + 1)}>Update Counter Method 1</button>
       <br/> <br/>
-      <button onClick={()=> setCount(++count)}>Update Counter Method 2</button>
+      <button onClick={()=> setCount(++count)}>Update Counter Method ++</button>
       <br/> <br/>
       <button onClick={() => setMorning(!isMorning)}>Day / Night</button>
     </div>
